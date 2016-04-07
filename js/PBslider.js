@@ -5,10 +5,12 @@ $(document).ready(function(){
     
         delay = 7500,
         slideNo = 0,
-        firstImage = imgs.eq(0).find('img');
-        firstImage.load(function(){
+        firstImage = imgs.eq(0).find('img');        
+        firstImage.one("load", function(){
             var imgHeight = imgs.eq(slideNo).find('img').height();
-        $('.pbSliderContainer').css('height', imgHeight +'px');         
+        $('.pbSliderContainer').css('height', imgHeight +'px');                 
+        }).each(function() {
+             if(this.complete) $(this).load();             
         });
           
 

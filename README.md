@@ -5,4 +5,6 @@ to fade in/out etc.. The default is set to slideUp / fadeIn
 
 Hope you enjoy
 
+<a href="http://highspec-computers.co.uk/demos/PBslider/index.html">View Online Demo</a>
+
 Paul Brown 

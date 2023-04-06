@@ -1,10 +1,5 @@
 # PBSlider
-Ultra LightWeight Responsive jQuery Slider / Image Rotator
-v1.0 currently stands at less than 4k when its compressed, This is a very simple Responsive jQuery Slider which can be customised quite easily in the .js file
-to fade in/out etc.. The default is set to slideUp / fadeIn
 
-Hope you enjoy
+An ultra-light (~0.5k) jQuery plugin for creating responsive image slideshows with cross-fade transitions and sliding captions on the web.
 
-<a href="http://highspec-computers.co.uk/demos/PBslider/index.html">View Online Demo</a>
-
-Paul Brown 
+<a href="https://www.jqueryscript.net/demo/responsive-pb-slider/">View Online Demo</a>
